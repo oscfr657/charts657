@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+.vscode**
+
+todo.txt*
+
+node_modules/
+npm-debug.log
+
+env
+.env
+
+*.tgz
