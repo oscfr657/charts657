@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChartJS with JSON-data</title>
+    <!-- Import Chart.js -->
+    <script src="/js/vendor/chart.umd.min.js"></script>
+    <!-- Import Charts657 -->
+    <script src="/js/charts657.js"></script>
+</head>
+<body>
+    <div style="width: 800px; max-width: 100%; margin: auto;">
+        <!-- Chart.js requires a canvas tag, not a regular div -->
+        <canvas id="charts657"></canvas>
+    </div>
+    <!-- Call the function that renders the charts, 
+     with links to the file that contains the data and options and ID on the canvas that should be certain charts. -->
+    <script>
+        renderChart("/exampleData.json", "charts657");
+    </script>
+</body>
+</html>
