@@ -12,13 +12,21 @@ A simple "vibe coded" charts.js examples project.
 
 ## For development ##
 
+https://www.chartjs.org/
+
+sudo apt install npm
+
+sudo npm install uglify-js
+
 ### Create a new release ###
 
-1. #### Run tests ####
+1. #### uglify ####
 
-2. Update CHANGELOG.md
+uglifyjs charts657.js -c -m -o charts657.min.js
 
-3. #### Build release ####
+2. #### Run tests ####
+
+3. Update CHANGELOG.md
 
 4. #### Publish to Git ####
 
