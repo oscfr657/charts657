@@ -4,6 +4,13 @@
 
 ## commits ##
 
+### 02 August 2026 ###
+
+    doc: updated CHANGELOG
+    build: Created a minified version
+    doc: Added node to gitignore
+    doc: Added uglify to README
+
 ### 08 July 2026 ###
     
     doc: created CHANGELOG and README.
